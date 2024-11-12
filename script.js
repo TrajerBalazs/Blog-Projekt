@@ -1,4 +1,8 @@
-const apiUrl = 'http://localhost:5000/api/posts';
+// Állítsd be a Render URL-t az API végpont eléréséhez
+const apiUrl = 'https://blog-projekt.onrender.com';
+
+// A többi kód változatlan marad...
+
 
 // Bejegyzések lekérése az API-ból
 async function fetchPosts() {
