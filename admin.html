@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adminisztrációs Felület</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adminisztrációs Felület</h1>
+        <nav>
+            <a href="index.html">Főoldal</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Új Blogbejegyzés Hozzáadása</h2>
+            <form id="post-form">
+                <label for="title">Bejegyzés címe:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="summary">Bevezető szöveg:</label>
+                <textarea id="summary" name="summary" rows="3" required></textarea>
+
+                <label for="content">Bejegyzés tartalma:</label>
+                <textarea id="content" name="content" rows="6" required></textarea>
+
+                <button type="submit">Bejegyzés Hozzáadása</button>
+            </form>
+        </section>
+
+        <section id="admin-posts">
+            <h2>Meglévő Bejegyzések</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blogom. Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        displayAdminPosts();
+    </script>
+</body>
+</html>
