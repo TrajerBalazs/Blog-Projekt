@@ -1,6 +1,5 @@
 // Állítsd be a Render URL-t az API végpont eléréséhez
-const apiUrl =
-  "https://<trajerbalazs.github.io/Blog-Projekt/>.onrender.com/api/posts";
+const apiUrl = "https://blog-projekt.onrender.com";
 
 // A többi kód változatlan marad...
 
